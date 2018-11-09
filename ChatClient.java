@@ -3,7 +3,7 @@
  *
  *
  *
- * @author Jacquie Yu, yu790@purdue.edu & Siddarth Pillai
+ * @author Jacquie Yu, yu790@purdue.edu & Siddarth Pillai, pillai8@purdue.edu
  *
  * @version November
  */
