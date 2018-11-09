@@ -33,13 +33,13 @@ final class ChatServer {
     private void start() {
         try {
             ServerSocket serverSocket = new ServerSocket(port);
-            while (true) {
+            while (true) { // infinite loop start
             Socket socket = serverSocket.accept();
             Runnable r = new ClientThread(socket, uniqueId++);
             Thread t = new Thread(r);
             clients.add((ClientThread) r);
             t.start();
-            }
+            } //infinite loop end
         } catch (IOException e) {
             e.printStackTrace();
         }
